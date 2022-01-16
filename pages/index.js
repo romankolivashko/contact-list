@@ -7,6 +7,11 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
+    <>
+    <Head>
+      <title>Contacts | Home</title>
+      <meta name='keywords' content="users" />
+    </Head>
    <div>
      <h1 className={styles.title}>Homepage</h1>
      <p className={styles.text}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae tempore quos nam officiis sequi porro minus nisi, enim eius culpa autem ut impedit aliquam nemo, quis magnam reprehenderit ipsa placeat!</p>
@@ -16,5 +21,6 @@ export default function Home() {
       <a className={styles.btn}>See User Listing</a>
      </Link>
    </div>
+   </>
   )
 }
