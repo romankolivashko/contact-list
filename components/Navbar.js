@@ -14,7 +14,7 @@ const Navbar = () => {
         <a>About</a>
       </Link>
       <Link href="/users">
-        <a>User Listing</a>
+        <a>Listing</a>
       </Link>
     </nav>
   );
