@@ -44,3 +44,12 @@ footer {
   color: #333;
   text-decoration: underline;
 }
+
+.contact-icon {
+  margin-top: 0px;
+}
+
+p {
+  padding: 3px;
+}
+
