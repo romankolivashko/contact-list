@@ -18,7 +18,7 @@ export default function Home() {
      <p className={styles.text}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae tempore quos nam officiis sequi porro minus nisi, enim eius culpa autem ut impedit aliquam nemo, quis magnam reprehenderit ipsa placeat!</p>
      <p className={styles.text}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae tempore quos nam officiis sequi porro minus nisi, enim eius culpa autem ut impedit aliquam nemo, quis magnam reprehenderit ipsa placeat!</p>
      <Link href="/users">
-      <a className={styles.btn}>See User Listing</a>
+      <a className={styles.btn}>All Contacts</a>
      </Link>
    </div>
    </>
