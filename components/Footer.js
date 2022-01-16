@@ -1,8 +1,8 @@
 const Footer = () => {
   return ( 
-    <div>
+    <footer>
       <p>Copyright &copy; {(new Date().getFullYear())} Roman Kolivashko All Rights Reserved</p>
-    </div>
+    </footer>
    );
 }
  
