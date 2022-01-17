@@ -29,21 +29,21 @@ export const getStaticProps = async (context) => {
 const Details = ({ user }) => {
   return (
     <div>
-      <h1>{user.name}</h1>
+      <h1 style={{paddingBottom: 20}}>{user.name}</h1>
       <p>
-        <img src="/email.png" alt="email" width={18} height={18} className="contact-icon"/>
+        <img src="/email.png" alt="email" width={18} height={18} />
         {user.email}
       </p>
-      <p>
-        <Image src="/web.png" alt="website" width={18} height={18} />
+      <p> 
+        <img src="/web.png" alt="website" width={18} height={18} />
         {user.website}
       </p>
       <p>
-        <Image src="/phone.png" alt="phone" width={18} height={18} />
+        <img src="/phone.png" alt="phone" width={18} height={18} />
         {user.phone}
       </p>
       <p>
-        <Image src="/city.png" alt="city" width={18} height={18} />
+        <img src="/city.png" alt="city" width={18} height={18} />
         {user.address.street}, {user.address.suite}, {user.address.city}, {user.address.zipcode}
       </p>
     </div>
